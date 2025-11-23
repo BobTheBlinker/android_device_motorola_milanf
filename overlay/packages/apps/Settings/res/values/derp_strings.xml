@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- # "Version" -->
+    <string name="derpfest_version">A-Team</string>
+    <!-- DerpFest maintainer -->
+    <string name="derpfest_summary">b@k3d by BOBtheBlinker</string>
+    <string name="derpfest_maintainer">BOBtheBlinker</string>
+</resources>

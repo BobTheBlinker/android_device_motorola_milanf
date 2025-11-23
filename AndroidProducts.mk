@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_milanf.mk
+    $(LOCAL_DIR)/derp_milanf.mk
