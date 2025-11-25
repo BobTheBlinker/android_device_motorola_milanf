@@ -11,10 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from milanf device
 $(call inherit-product, device/motorola/milanf/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common BlissROM stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_milanf
+# Maintainer Overlay
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+PRODUCT_NAME := bliss_milanf
 PRODUCT_DEVICE := milanf
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
