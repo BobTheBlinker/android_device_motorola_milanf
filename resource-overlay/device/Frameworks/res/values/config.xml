@@ -264,10 +264,4 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
-
-    <!-- Whether this device is supporting the software microphone toggle -->
-    <bool name="config_supportsMicToggle">true</bool>
-
-    <!-- Whether this device is supporting the camera toggle -->
-    <bool name="config_supportsCamToggle">true</bool>
 </resources>

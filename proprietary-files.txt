@@ -74,7 +74,6 @@ vendor/lib64/libofflinedump.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
-vendor/lib64/libpowercore.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libtfestriping.so
