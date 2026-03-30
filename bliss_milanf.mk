@@ -17,6 +17,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Maintainer Overlay
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# GMS Package Variant (can handle pico, nano, micro)
+TARGET_GAPPS_VARIANT := micro               + Gmail, Maps, Photos, YouTube, Assistant, Dialer
+
 PRODUCT_NAME := bliss_milanf
 PRODUCT_DEVICE := milanf
 PRODUCT_MANUFACTURER := motorola
