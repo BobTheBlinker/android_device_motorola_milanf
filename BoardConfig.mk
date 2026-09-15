@@ -52,3 +52,6 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 25
 
 # inherit from the proprietary version
 include vendor/motorola/milanf/BoardConfigVendor.mk
+
+# Keep exact branded kernel release; suppress SCM "+" suffix
+TARGET_KERNEL_ADDITIONAL_FLAGS += LOCALVERSION=
