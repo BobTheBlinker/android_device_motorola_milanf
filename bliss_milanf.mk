@@ -33,6 +33,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="milanf_g-user 13 T2SDS33.75-38-1-3-26 e35d9-fa7d4 release-keys" \
     BuildFingerprint=motorola/milanf_g/milanf:13/T2SDS33.75-38-1-3-26/e35d9-fa7d4:user/release-keys \
     DeviceProduct=milanf_g
-
-# A-Team signing configuration
-$(call inherit-product, vendor/ateam/android.mk)
