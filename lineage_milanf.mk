@@ -14,6 +14,9 @@ $(call inherit-product, device/motorola/milanf/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Maintainer Overlay
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 PRODUCT_NAME := lineage_milanf
 PRODUCT_DEVICE := milanf
 PRODUCT_MANUFACTURER := motorola
