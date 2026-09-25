@@ -17,8 +17,7 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Maintainer Overlay
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# GMS Package Variant (can handle pico, nano, micro, full)
-TARGET_GAPPS_VARIANT := full
+# MindTheGapps Architecture
 GAPPS_ARCH := arm64
 
 PRODUCT_NAME := bliss_milanf
